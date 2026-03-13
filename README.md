@@ -1,6 +1,6 @@
- Speech Emotion Recognition using Spectrogram-Based CNN Models
+# Speech Emotion Recognition using Spectrogram-Based CNN Models
 
- Overview
+## Overview
 
 This project implements a **Speech Emotion Recognition (SER)** system using deep learning and classical machine learning techniques. The objective is to classify human emotions from speech signals using time–frequency audio representations such as **Mel Spectrograms** and **MFCC features**.
 
@@ -10,7 +10,7 @@ The experiments are conducted on the **RAVDESS Emotional Speech Dataset**, and a
 
 ---
 
- Key Features
+## Key Features
 
 * Speech emotion classification using deep learning
 * Feature extraction using **Mel Spectrograms** and **MFCC**
@@ -21,7 +21,7 @@ The experiments are conducted on the **RAVDESS Emotional Speech Dataset**, and a
 
 ---
 
- Dataset
+## Dataset
 
 This project uses the **RAVDESS Emotional Speech Dataset**.
 
@@ -30,17 +30,17 @@ https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio
 
 After downloading, place the dataset in the project directory:
 
-
+```
 Speech-Emotion-Recognition/
 │
 ├── RAVDESS Emotional speech audio/
-
+```
 
 The dataset is **not included in this repository** due to its size.
 
 ---
 
- Project Structure
+## Project Structure
 
 ```
 Speech-Emotion-Recognition
@@ -56,25 +56,25 @@ Speech-Emotion-Recognition
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
- Feature Extraction
+## Feature Extraction
 
 Two types of audio features are used:
 
- 1. Mel Spectrogram
+### 1. Mel Spectrogram
 
 A time–frequency representation of the audio signal used for training the CNN model.
 
- 2. MFCC (Mel Frequency Cepstral Coefficients)
+### 2. MFCC (Mel Frequency Cepstral Coefficients)
 
 Compact acoustic features widely used in speech processing tasks.
 
 ---
 
- Implemented Models
+## Implemented Models
 
 The following models were implemented and compared:
 
@@ -88,7 +88,7 @@ The CNN model achieved the best performance by learning spatial patterns from sp
 
 ---
 
- Emotion Confusion Analysis
+## Emotion Confusion Analysis
 
 A confusion matrix was generated to analyze classification errors.
 
@@ -101,7 +101,7 @@ These emotions share similar acoustic characteristics, making them more difficul
 
 ---
 
- Emotion-Specific Spectrogram Analysis
+## Emotion-Specific Spectrogram Analysis
 
 Spectrogram visualization reveals distinctive acoustic patterns across emotional states.
 
@@ -116,12 +116,12 @@ These findings confirm that emotional speech signals contain unique frequency-en
 
 ---
 
- Installation
+## Installation
 
 Clone the repository:
 
 ```
-
+git clone https://github.com/Saptarshideb/Speech-Emotion-Recognition.git
 ```
 
 Navigate to the project folder:
@@ -138,7 +138,7 @@ pip install -r requirements.txt
 
 ---
 
- Running the Project
+## Running the Project
 
 Open the Jupyter notebook:
 
@@ -161,7 +161,7 @@ The notebook performs:
 
 ---
 
- Technologies Used
+## Technologies Used
 
 * Python
 * NumPy
@@ -175,7 +175,7 @@ The notebook performs:
 
 ---
 
- Results Visualization
+## Results Visualization
 
 The project includes visualizations such as:
 
@@ -188,7 +188,7 @@ These visualizations help interpret how different emotions manifest in speech si
 
 ---
 
- Future Improvements
+## Future Improvements
 
 Possible improvements include:
 
@@ -200,11 +200,9 @@ Possible improvements include:
 
 ---
 
- Author
+## Author
 
 Saptarshi Debnath
-
+Artificial Intelligence & Machine Learning Enthusiast
 
 ---
-
-
